@@ -1,0 +1,35 @@
+.panel{
+    height: 40px;
+    background-color: #222f3d;
+    color: white;
+    
+    align-items: center;
+    display: flex;
+    justify-content: space-evenly;
+}
+.panel-ops p{
+    display: inline;
+    margin-left: 14px;
+    
+    
+}
+.panel-ops{
+    width: 65%;
+    font-size: 0.85rem;
+    font-weight: 600;
+    
+}
+.menu i{
+    margin-right: 5px;
+}
+.menu{
+    display: flex;
+    width: 30px;
+    font-weight: 600;
+    align-items: center;
+}
+.deals{
+    font-size: 0.95rem;
+    font-weight: 600;
+    color: #cccccc;
+}

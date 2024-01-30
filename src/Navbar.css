@@ -1,0 +1,157 @@
+/*BOX1*/
+
+.navbar{
+    height: 60px ;
+    background-color: #0F1111;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+  .nav-logo{
+    align-self: center;
+    height: 50px;
+    width: 100px;
+  }
+  .logo{
+    align-items: center;
+    background-image: url(amazon_logo.png);
+    background-size:cover;
+    height: 50px;
+    width: 100%;
+  }
+  .border{
+    border: 1.5px solid transparent;
+  }
+  .border:hover{
+    border: 1.5px solid white;
+  }
+  
+  /*BOX2*/
+  
+  .nav-address{
+    height: 50px;
+    
+  }
+  .add-first{
+    color: #cccccc;
+    font-size: 0.85rem;
+    margin-left: 20px;  
+    align-content: center;         
+  }
+  .add-sec{
+    font-size: 1rem;
+    color: white;
+    font-weight: 630;
+    margin-left: 8px;
+  }
+  .add-icon{
+    display: flex;   
+    align-items:center;
+  }
+  
+  /* BOX3 */
+  .nav-search{
+    align-items: center;
+    align-self: center;
+    display: flex;
+    justify-content: space-evenly;
+    width: 800px;
+    height: 40px;
+    /* background-color: aqua; */
+  }
+  .nav-search:hover{
+    border: 2px solid #f2ad18;
+    border-radius: 7px;
+  }
+  
+  .search-select{
+    width: 50px;
+    height: 40px;
+    background-color: #f3f3f3;
+    text-align: center;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+    /* border: none; */
+  }
+  
+  .search-input{
+    height: 34.8px;
+    width: 100%;
+    font-size: 1rem;
+    /* border: none; */
+  }
+  .search-icon{
+    height: 40px;
+    width: 45px;
+    display: flex;
+    justify-content: center;   /* horizontally centered */
+    align-items: center;       /* vertically centered */   
+    font-size: 1.3rem;
+    background-color: #f2ad18;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+  }
+  .icon{
+    color: black;
+  }
+  
+  /*BOX x*/
+  .nav-lang{
+    display: flex;
+    justify-content: center;
+    height: 50px;
+    width:80px;
+    align-items: center;
+  }
+  .lang{
+    background-image: url(india.jpeg);
+    
+    background-size: cover;
+    width: 25px;
+    height: 18px;
+  }
+  .lang-text{
+    font-size: 14px;
+    font-weight: 700;
+    margin-left: 5px;
+  }
+  
+  /*BOX 4 & 5*/
+  .nav-acc{
+    height: 50px;
+    align-items: center;
+  }
+  .acc-one{
+    font-size: 12px;
+  }
+  .acc-two{
+    font-size: 14px;
+    font-weight: 700;
+  }
+  
+  .nav-order{
+    height: 50px;
+    align-items: center;
+  }
+  .order-one{
+    font-size: 12px;
+  }
+  
+  .order-two{
+    font-size: 14px;
+    font-weight: 700;
+  }
+  
+  /*BOX 6*/
+  .nav-cart i{
+    font-size: 35px;
+  
+  }
+  .nav-cart{
+    font-size: 0.85rem;
+    font-weight: 700;
+    /* height: 50px; */
+    align-items:end;
+    justify-content: flex-end;
+  }
